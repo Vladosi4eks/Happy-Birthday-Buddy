@@ -8,7 +8,7 @@
         .text {
             color: #fff;
             width: 100%;
-            z-index: 99999999;
+            z-index: 19;
             font-size: 100px;
             transform: translateY(0%);
             transition: transform 75000ms linear;
@@ -39,11 +39,15 @@
             transform: translateY(-150%);
             transition: transform 75000ms linear;
         }
+        
+        embed {
+            z-index: 99999999;
+        }
     </style>
 </head>
 
 <body style="background:#333;margin:0;padding:0;" class="body">
-    <embed src="./music.wav" autostart="true" hidden="false" loop="false" width="50px" height="40px"> </embed>
+    <embed src="./music.mp3" autostart="true" hidden="true" loop="true" width="150px" height="60px" class="music"> </embed>
     <canvas width="1920" height="1000" class="canvas" id="fireworks-canvas" style="background:#000;"></canvas>
     <div class="text">
         <div class="image">
@@ -56,6 +60,9 @@
             <img class="dissage" src="./fours.jpg" alt="" width="500px" height="600px">
             <img class="dissage" src="./fives.jpg" alt="" width="500px" height="600px">
             <img class="dissage" src="./sixs.jpg" alt="" width="500px" height="600px">
+            <img class="dissage" src="./last-1.jpg" alt="" width="500px" height="600px">
+            <img class="dissage" src="./last-2.jpg" alt="" width="500px" height="600px">
+            <img class="dissage" src="./last-3.jpg" alt="" width="500px" height="600px">
         </div>
         <p>Зазвичай тут щось бажають, говорячи приємні речі та інколи деінде можуть приправити картиночками з вайберу, наче цього не можна було робити інші 364 дні, але не про це. Проте запам’ятаєш мене на про всяк випадок. Сьогодні в тебе наче 8 березня,
             Валюха подарує тобі тюльпанчиків, ми присобачимо якийсь глечик з водою, а там вже будеш з ними порпатися як свиня в сараї. І щоб оцей твій тюльпанчик з кожним роком, тижнем та днем лише розквітав, не провисав як це у чоловіків з віком буває.</р><br>
